@@ -130,3 +130,38 @@ header {
 .quote h2 {
     text-align: right;
 }
+
+.sign_up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    color: #f9f9f9;
+}
+
+.sign_up .form {
+    background-color: #3882f6;
+    width: 800px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.sign_up .button {
+    display: flex;
+    align-items: center;
+}
+
+.sign_up button {
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    background-color: #3882f6;
+    width: 120px;
+}
+
+.sign_up p {
+    color: #e5e7eb;
+}
